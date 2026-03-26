@@ -249,3 +249,45 @@ body {
     font-size: 15px;
     color: #cbd5e1;
 }
+.search-section {
+    background-color: #111827;
+    padding: 60px 0;
+}
+
+.search-container {
+    text-align: center;
+}
+
+.search-container h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.search-box input,
+.search-box select {
+    padding: 12px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-box button {
+    padding: 12px 25px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #1d4ed8;
+}
