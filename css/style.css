@@ -291,3 +291,94 @@ body {
 .search-box button:hover {
     background-color: #1d4ed8;
 }
+/* Featured Jobs Section */
+.featured-jobs {
+    padding: 60px 10%;
+    background-color: #111827;
+    text-align: center;
+    color: white;
+}
+
+/* Section Heading */
+.featured-jobs h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+/* Job Cards Container */
+.job-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* Single Job Card */
+.job-card {
+    background-color: #1f2933;
+    padding: 20px;
+    width: 260px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+/* Card Hover Effect */
+.job-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Job Title */
+.job-card h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+/* Job Text */
+.job-card p {
+    margin: 5px 0;
+    color: #cbd5e1;
+}
+
+/* Button */
+.job-card button {
+    margin-top: 12px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button Hover */
+.job-card button:hover {
+    background-color: #1e40af;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .job-container {
+        gap: 20px;
+    }
+
+    .job-card {
+        width: 45%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .featured-jobs {
+        padding: 40px 5%;
+    }
+
+    .featured-jobs h2 {
+        font-size: 24px;
+    }
+
+    .job-card {
+        width: 100%;
+    }
+}
