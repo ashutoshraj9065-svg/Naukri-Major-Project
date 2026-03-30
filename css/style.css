@@ -383,4 +383,50 @@ body {
     }
 }
 /* feature job section end */
-/* new section start */
+.categories {
+    padding: 60px 10%;
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.category-card {
+    background-color: #1f2933;
+    padding: 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    background-color: #2563eb;
+}
+
+.category-card p {
+    color: #cbd5e1;
+}
+/* Tablet */
+@media (max-width: 900px) {
+    .category-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .category-container {
+        grid-template-columns: 1fr;
+    }
+}
+
