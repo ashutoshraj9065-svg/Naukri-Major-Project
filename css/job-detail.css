@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #0f172a;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #111827;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Section */
+.job-detail {
+    padding: 60px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Box */
+.job-box {
+    background-color: #1f2933;
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* Title */
+.job-box h2 {
+    margin-bottom: 15px;
+}
+
+/* Paragraph */
+.job-box p {
+    margin: 10px 0;
+    color: #cbd5e1;
+}
+
+/* Description Heading */
+.job-box h3 {
+    margin-top: 20px;
+}
+
+/* Button */
+.job-box button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.job-box button:hover {
+    background-color: #1e40af;
+}
